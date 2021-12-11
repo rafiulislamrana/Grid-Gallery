@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 *{
     margin: 1px;
     padding: 0;
+}
+.text{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.text span{
+    color: #df0425;
+}
+.text span span{
+    font-size: 40px;
+}
+hr{
+    margin: 10px 0px;
 }
 .container {
     display: grid;
@@ -11,6 +27,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 7px;
 }
 .vertical{
     grid-row: auto / span 3;
